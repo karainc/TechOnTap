@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Comme:wght@300&display=swap');
+
+
+:root {
+    --sans-serif: Verdana;
+    --teal: #4a0a69;
+    --lightgray: #d2d2d2;
+    --darkgray: #455559;
+    --ruby: #D92525;
+}
+
+.form-control {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+.divider {
+    margin: 0 5px;
+    color: #4a0a69;
+}
+
+
+
+.goal-container {
+    border: 1px solid #4a0a69;
+    padding: 0;
+    box-shadow: 0 4px 2px -2px #4a0a69;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+/* goal container header */
+.main-goal-heading {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: var(--teal);
+    padding: 20px;
+    margin-bottom: 0;
+    border-bottom: 1px solid #4a0a69;
+}
+
+/* individual goals */
+.inner-goal {
+    padding: 20px 20px;
+    border-bottom: 1px solid #4a0a69;
+}
+
+/* individual goal title */
+.goal-title {
+    font-family: Century-Gothic;
+    font-size: 20px;
+    margin-bottom: 0;
+    font-weight: 600;
+}
+
+/* individual goal date */
+.goal-date {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: var(--darkgray);
+    margin-right: 10px;
+}
+
+/* goal synopsis textarea */
+.goal-description {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 100%;
+    max-width: 600px;
+}
+
+.add-new-goal-button {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background: #fff;
+    border: 0;
+    color:#4a0a69;
+    font-weight: 600;
+}
+
+.open-button {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background:#4a0a69;
+    color: #fff;
+    padding: 5px 10px;
+    width: 75px;
+    text-align: center;
+    text-decoration: none;
+    margin-bottom: 5px;
+}
+
+
+.open-button:hover {
+    color: #fff;
+}
+
+/* delete goal button */
+.delete-button {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background: var(--ruby);
+    border: none;
+    color: #fff;
+    padding: 5px 10px;
+    width: 75px;
+    text-align: center;
+}
+
+/* edit button */
+.edit-button {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background: #4a0a69;
+    border: none;
+    color: #fff;
+    padding: 5px 10px;
+    width: 75px;
+    text-align: center;
+    text-decoration: none;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+/* goal FORM */
+
+/* add new goal form formatting */
+.goal-form {
+    padding: 20px;
+    border-top: 1px solid #4a0a69;
+    margin-top: 20px;
+}
+
+.goal-form-close-button {
+    display: flex;
+    justify-content: end;
+}
+
+/* submit goal button */
+.submit-goal-button {
+    font-family: 'Century-Gothic';
+    background: #57086b;
+    border: none;
+    color: #fff;
+    padding: 5px 10px;
+    text-align: center;
+    margin-top: 15px;
+}
+
+/* cancel goal button */
+.cancel-goal-button {
+    font-family: 'Century-Gothic';
+    background: gray;
+    border: none;
+    color: #fff;
+    padding: 5px 10px;
+    text-align: center;
+    margin-top: 15px;
+    margin-left: 10px;
+}
+
+/* this is the openDelete container */
+.openDelete {
+    margin-top: 10px;
+}
+
+/* container for buttons */
+.add-goal-show-all-buttons {
+    padding: 10px 20px;
+}
+
+/* goal form label */
+.goal-form-label {
+    font-family: var(--century-gothic);
+    font-weight: 600;
+    margin-bottom: 0;
+}
+
+/* adjusting the space between the fields */
+.goal-form-group {
+    margin-bottom: 10px;
+}
+
+/* changes the border color for form control focus */
+.form-control:focus, .btn-close:focus {
+    border-color: #4a0a69;
+    box-shadow: 5px 1px 3px #4a0a69;
+}
+
+
+/* EDIT goal MODAL */
+/* edit article modal title */
+.goal-modal-title {
+    font-family: Verdana, Geneva, Tahoma, sans-serif, bold;
+    color: #4a0a69;
+    font-size: 28px;
+    margin-bottom: 0;
+}
+
+/* update article button in modal */
+.update-goal-button {
+    font-family: Verdana, Geneva, Tahoma, sans-serif, bold;
+    background: #4a0a69;
+    border: none;
+    color: #fff;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}

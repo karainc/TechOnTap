@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Source+Sans+Pro:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,600;1,700&display=swap');
+
+/* navbar background color */
+.bg-navbar-background {
+    background: #4a0a69;
+}
+
+/* navbar logo */
+.navbar-brand-custom {
+    font-family:  Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 48px;
+    text-decoration: none;
+    text-shadow: 2px 2px 2px #f1eef4;
+    padding-left: 40px;
+    color: #f6f2f2; 
+}
+
+.navbar-brand-custom:hover {
+    color: #fff; 
+}
+
+/* navbar links */
+.nav-link-custom {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #fff;
+    font-size: 28px;
+    font-weight: 100;
+    text-decoration: none;
+    text-shadow: 1px 1px 2px #000000;
+    text-align: center;
+    padding-right: 40px;
+    cursor: pointer;
+}
+
+.nav-link-custom:hover {
+    font-weight: bold;
+    color: #fff;
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(255, 255, 255)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") !important;
+    
+}
+
+.navbar-toggler {
+    border: 3px solid #fff !important;
+    margin-right: 20px;
+}
